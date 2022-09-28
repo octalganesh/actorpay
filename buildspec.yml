@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - ./gradlew bootJar
+      - ./gradlew build
   post_build:
     commands:
       - echo Build completed
